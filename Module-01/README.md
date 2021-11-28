@@ -103,3 +103,42 @@ My points: 59
 ```
 
 ---
+
+### 05. Rendering an error message
+
+index.html
+
+```
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <img src="images/shoe.jpeg" alt="Nike shoe">
+        <p>Nike shoe</p>
+        <button onclick="purchase()">Purchase - $149</button>
+        <p id="error"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
+```
+
+index.js
+
+```
+// When the user clicks the purchase button, render out
+// "Something went wrong, please try again" in the paragraph
+// that has the id="error".
+
+let errorParagraph = document.getElementById("error")
+console.log(errorParagraph)
+
+function purchase() {
+    console.log("button clicked")
+    errorParagraph.textContent = "Something went wrong, please try again"
+}
+```
+
+---
+
+### 06. Calculator Challenge
