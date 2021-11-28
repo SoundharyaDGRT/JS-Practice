@@ -108,13 +108,13 @@ My points: 59
 
 index.html
 
-```
+```html
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-        <img src="images/shoe.jpeg" alt="Nike shoe">
+        <img src="images/shoe.jpeg" alt="Nike shoe" />
         <p>Nike shoe</p>
         <button onclick="purchase()">Purchase - $149</button>
         <p id="error"></p>
