@@ -1,6 +1,6 @@
-### Module 1 Practice
+## Module 1 Practice
 
-## 03. Incrementing and Decrementing
+### 03. Incrementing and Decrementing
 
 ```
 let myPoints = 3
