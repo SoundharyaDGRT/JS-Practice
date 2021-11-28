@@ -22,6 +22,29 @@ Per Borgen
 
 ---
 
+### 02. Concatenating two strings in a function
+
+```
+let name = "Linda"
+let greeting = "Hi there"
+
+// Create a function that logs out "Hi there, Linda!" when called
+
+function greetLinda() {
+    console.log(greeting + ", " + name + "!")
+}
+
+greetLinda()
+```
+
+Output:
+
+```
+Hi there, Linda!
+```
+
+---
+
 ### 03. Incrementing and Decrementing
 
 ```
