@@ -143,6 +143,8 @@ function purchase() {
 
 ### 06. Calculator Challenge
 
+index.html
+
 ```html
 <html>
     <head>
@@ -162,6 +164,8 @@ function purchase() {
     </body>
 </html>
 ```
+
+index.js
 
 ```js
 let num1 = 8;
